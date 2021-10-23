@@ -7,7 +7,8 @@
 body{
     height: 100vh;
 	width: 100%;
-	background: linear-gradient(180deg, rgba(0,252,255,1) 0%, rgba(57,9,215,1) 78%);}
+	background: url('layered-waves-haikei.png') center cover no-repeat;
+}
 .container{
     background-color: #ffffff;
     width: 400px;
