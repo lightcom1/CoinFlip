@@ -7,7 +7,8 @@
 body{
     height: 100vh;
 	width: 100%;
-	background: url('layered-waves-haikei.png') center cover no-repeat;
+	background: url('layered-waves-haikei.svg') center no-repeat;
+	background-size: cover;
 }
 .container{
     background-color: #ffffff;
@@ -85,12 +86,12 @@ body{
 button{
     width: 120px;
     padding: 10px 0;
-    border: 2.5px solid #424ae0;
+    border: 2.5px solid #EF5F67;
     border-radius: 5px;
     cursor: pointer;
 }
 #flip-button{
-    background-color: #424ae0;
+    background-color: #EF5F67;
     color: #ffffff;
 }
 #flip-button:disabled,
@@ -101,7 +102,7 @@ button{
 }
 #reset-button{
     background-color: #ffffff;
-    color: #424ae0;
+    color: #EF5F67;
 }
 @media screen and (max-width: 450px) {
 	.container {
